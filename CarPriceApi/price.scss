@@ -1,0 +1,77 @@
+.first{
+    margin-top: 8rem;
+}
+.container{
+   
+    .jumpTo{
+        p{
+            margin-top: .4rem;
+        }
+        .btnsDiv{
+            // padding: 0rem 2rem;
+            .btn-secondary{
+                margin: 0 2rem;
+                background-color: transparent!important;
+                border: none;
+                &:focus{
+                    // border: none;
+                    box-shadow: none!important;
+                }
+                a{
+                    color: black;
+                    // text-decoration: none;
+                }
+                a:hover{
+                    text-decoration: none;
+                    font-weight: 500;
+                }
+                .active{
+                    color: rgb(255, 136, 0);
+                 }
+            }
+
+        }
+    }
+    .carBlocks{
+        .HondaCity{
+            h2{
+                color: rgb(255, 136, 0);
+                font-weight: bold;
+            }
+            .card{
+                padding: .5rem 1rem;
+                border-radius: 12px;
+                // background-color: #f5f5f5;
+                margin-bottom: 1rem;
+                .row{
+                    border-radius: 12px;
+                    background-color: #f5f5f5;
+                    .features{
+                        margin-left: 0;
+                        p{
+                            margin: 0;
+                            // padding:0;
+                            // border: 1px solid black;
+                        }
+                        .p1{
+                            padding-bottom: .1rem;
+                        }
+                        .p2{
+                            // border-top: 1.5px solid rgb(196, 191, 191);
+                            color: rgb(197, 191, 191);
+                        }
+                    }
+                    .Prices{
+                        .pricesPara{
+                            p{
+                                margin: 0;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.firstCon{
+    margin-top: 10rem;
+}
+.container{
+    .Maincard{
+        margin-top: 1rem;
+        // border: 1px solid black;
+           .link{
+            border-radius: 12px;
+            img{
+                width: auto;
+                height: 100px;
+                // border: 1px solid rgb(197, 187, 187);
+                border-radius: 15px;
+                object-fit: contain;
+            }
+           }
+            p{
+                text-align: center;
+                // border:1px solid black;
+            }
+        
+    }
+}
